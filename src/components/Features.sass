@@ -1,0 +1,37 @@
+@import './Vars.sass'
+
+.Features
+    display: flex
+    justify-content: center
+    flex-direction: column
+    align-items: center
+    padding: 80px 0
+    background: $gray-dark
+    
+
+    &__title
+        width: 80%
+        margin-bottom: 40px
+
+        h2
+            color: #ccc
+
+    &__wrap
+        width: 80%
+        display: grid
+        grid-template-columns: repeat(auto-fill, minmax(361px, 1fr))
+        grid-row-gap: 20px
+
+    &__card
+        width: 361px
+
+    &__text
+        margin-top: 40px
+        
+
+        h6
+            margin-bottom: 20px
+            color: #ccc
+
+        p
+            color: #ccc
